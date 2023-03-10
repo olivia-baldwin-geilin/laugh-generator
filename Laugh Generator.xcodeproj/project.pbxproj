@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C80773E29BBAEA500A7D13D /* Laugh_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80773D29BBAEA500A7D13D /* Laugh_GeneratorApp.swift */; };
+		7C80774029BBAEA500A7D13D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80773F29BBAEA500A7D13D /* ContentView.swift */; };
+		7C80774229BBAEA600A7D13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C80774129BBAEA600A7D13D /* Assets.xcassets */; };
+		7C80774629BBAEA600A7D13D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C80774529BBAEA600A7D13D /* Preview Assets.xcassets */; };
+		7C80775029BBAEA600A7D13D /* Laugh_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80774F29BBAEA600A7D13D /* Laugh_GeneratorTests.swift */; };
+		7C80775A29BBAEA600A7D13D /* Laugh_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80775929BBAEA600A7D13D /* Laugh_GeneratorUITests.swift */; };
+		7C80775C29BBAEA600A7D13D /* Laugh_GeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80775B29BBAEA600A7D13D /* Laugh_GeneratorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C80774C29BBAEA600A7D13D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C80773229BBAEA500A7D13D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C80773929BBAEA500A7D13D;
+			remoteInfo = "Laugh Generator";
+		};
+		7C80775629BBAEA600A7D13D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C80773229BBAEA500A7D13D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C80773929BBAEA500A7D13D;
+			remoteInfo = "Laugh Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C80773A29BBAEA500A7D13D /* Laugh Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Laugh Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C80773D29BBAEA500A7D13D /* Laugh_GeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laugh_GeneratorApp.swift; sourceTree = "<group>"; };
+		7C80773F29BBAEA500A7D13D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C80774129BBAEA600A7D13D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C80774329BBAEA600A7D13D /* Laugh_Generator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laugh_Generator.entitlements; sourceTree = "<group>"; };
+		7C80774529BBAEA600A7D13D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C80774B29BBAEA600A7D13D /* Laugh GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Laugh GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C80774F29BBAEA600A7D13D /* Laugh_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laugh_GeneratorTests.swift; sourceTree = "<group>"; };
+		7C80775529BBAEA600A7D13D /* Laugh GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Laugh GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C80775929BBAEA600A7D13D /* Laugh_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laugh_GeneratorUITests.swift; sourceTree = "<group>"; };
+		7C80775B29BBAEA600A7D13D /* Laugh_GeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laugh_GeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C80773729BBAEA500A7D13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C80774829BBAEA600A7D13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C80775229BBAEA600A7D13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C80773129BBAEA500A7D13D = {
+			isa = PBXGroup;
+			children = (
+				7C80773C29BBAEA500A7D13D /* Laugh Generator */,
+				7C80774E29BBAEA600A7D13D /* Laugh GeneratorTests */,
+				7C80775829BBAEA600A7D13D /* Laugh GeneratorUITests */,
+				7C80773B29BBAEA500A7D13D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C80773B29BBAEA500A7D13D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C80773A29BBAEA500A7D13D /* Laugh Generator.app */,
+				7C80774B29BBAEA600A7D13D /* Laugh GeneratorTests.xctest */,
+				7C80775529BBAEA600A7D13D /* Laugh GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C80773C29BBAEA500A7D13D /* Laugh Generator */ = {
+			isa = PBXGroup;
+			children = (
+				7C80773D29BBAEA500A7D13D /* Laugh_GeneratorApp.swift */,
+				7C80773F29BBAEA500A7D13D /* ContentView.swift */,
+				7C80774129BBAEA600A7D13D /* Assets.xcassets */,
+				7C80774329BBAEA600A7D13D /* Laugh_Generator.entitlements */,
+				7C80774429BBAEA600A7D13D /* Preview Content */,
+			);
+			path = "Laugh Generator";
+			sourceTree = "<group>";
+		};
+		7C80774429BBAEA600A7D13D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7C80774529BBAEA600A7D13D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7C80774E29BBAEA600A7D13D /* Laugh GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C80774F29BBAEA600A7D13D /* Laugh_GeneratorTests.swift */,
+			);
+			path = "Laugh GeneratorTests";
+			sourceTree = "<group>";
+		};
+		7C80775829BBAEA600A7D13D /* Laugh GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C80775929BBAEA600A7D13D /* Laugh_GeneratorUITests.swift */,
+				7C80775B29BBAEA600A7D13D /* Laugh_GeneratorUITestsLaunchTests.swift */,
+			);
+			path = "Laugh GeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C80773929BBAEA500A7D13D /* Laugh Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C80775F29BBAEA600A7D13D /* Build configuration list for PBXNativeTarget "Laugh Generator" */;
+			buildPhases = (
+				7C80773629BBAEA500A7D13D /* Sources */,
+				7C80773729BBAEA500A7D13D /* Frameworks */,
+				7C80773829BBAEA500A7D13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Laugh Generator";
+			productName = "Laugh Generator";
+			productReference = 7C80773A29BBAEA500A7D13D /* Laugh Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C80774A29BBAEA600A7D13D /* Laugh GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C80776229BBAEA600A7D13D /* Build configuration list for PBXNativeTarget "Laugh GeneratorTests" */;
+			buildPhases = (
+				7C80774729BBAEA600A7D13D /* Sources */,
+				7C80774829BBAEA600A7D13D /* Frameworks */,
+				7C80774929BBAEA600A7D13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C80774D29BBAEA600A7D13D /* PBXTargetDependency */,
+			);
+			name = "Laugh GeneratorTests";
+			productName = "Laugh GeneratorTests";
+			productReference = 7C80774B29BBAEA600A7D13D /* Laugh GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C80775429BBAEA600A7D13D /* Laugh GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C80776529BBAEA600A7D13D /* Build configuration list for PBXNativeTarget "Laugh GeneratorUITests" */;
+			buildPhases = (
+				7C80775129BBAEA600A7D13D /* Sources */,
+				7C80775229BBAEA600A7D13D /* Frameworks */,
+				7C80775329BBAEA600A7D13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C80775729BBAEA600A7D13D /* PBXTargetDependency */,
+			);
+			name = "Laugh GeneratorUITests";
+			productName = "Laugh GeneratorUITests";
+			productReference = 7C80775529BBAEA600A7D13D /* Laugh GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C80773229BBAEA500A7D13D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7C80773929BBAEA500A7D13D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7C80774A29BBAEA600A7D13D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7C80773929BBAEA500A7D13D;
+					};
+					7C80775429BBAEA600A7D13D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7C80773929BBAEA500A7D13D;
+					};
+				};
+			};
+			buildConfigurationList = 7C80773529BBAEA500A7D13D /* Build configuration list for PBXProject "Laugh Generator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C80773129BBAEA500A7D13D;
+			productRefGroup = 7C80773B29BBAEA500A7D13D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C80773929BBAEA500A7D13D /* Laugh Generator */,
+				7C80774A29BBAEA600A7D13D /* Laugh GeneratorTests */,
+				7C80775429BBAEA600A7D13D /* Laugh GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C80773829BBAEA500A7D13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C80774629BBAEA600A7D13D /* Preview Assets.xcassets in Resources */,
+				7C80774229BBAEA600A7D13D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C80774929BBAEA600A7D13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C80775329BBAEA600A7D13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C80773629BBAEA500A7D13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C80774029BBAEA500A7D13D /* ContentView.swift in Sources */,
+				7C80773E29BBAEA500A7D13D /* Laugh_GeneratorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C80774729BBAEA600A7D13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C80775029BBAEA600A7D13D /* Laugh_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C80775129BBAEA600A7D13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C80775C29BBAEA600A7D13D /* Laugh_GeneratorUITestsLaunchTests.swift in Sources */,
+				7C80775A29BBAEA600A7D13D /* Laugh_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C80774D29BBAEA600A7D13D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C80773929BBAEA500A7D13D /* Laugh Generator */;
+			targetProxy = 7C80774C29BBAEA600A7D13D /* PBXContainerItemProxy */;
+		};
+		7C80775729BBAEA600A7D13D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C80773929BBAEA500A7D13D /* Laugh Generator */;
+			targetProxy = 7C80775629BBAEA600A7D13D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7C80775D29BBAEA600A7D13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C80775E29BBAEA600A7D13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7C80776029BBAEA600A7D13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Laugh Generator/Laugh_Generator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Laugh Generator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Explore.Laugh-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C80776129BBAEA600A7D13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Laugh Generator/Laugh_Generator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Laugh Generator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Explore.Laugh-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7C80776329BBAEA600A7D13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Explore.Laugh-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laugh Generator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Laugh Generator";
+			};
+			name = Debug;
+		};
+		7C80776429BBAEA600A7D13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Explore.Laugh-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laugh Generator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Laugh Generator";
+			};
+			name = Release;
+		};
+		7C80776629BBAEA600A7D13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Explore.Laugh-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Laugh Generator";
+			};
+			name = Debug;
+		};
+		7C80776729BBAEA600A7D13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Explore.Laugh-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Laugh Generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C80773529BBAEA500A7D13D /* Build configuration list for PBXProject "Laugh Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C80775D29BBAEA600A7D13D /* Debug */,
+				7C80775E29BBAEA600A7D13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C80775F29BBAEA600A7D13D /* Build configuration list for PBXNativeTarget "Laugh Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C80776029BBAEA600A7D13D /* Debug */,
+				7C80776129BBAEA600A7D13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C80776229BBAEA600A7D13D /* Build configuration list for PBXNativeTarget "Laugh GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C80776329BBAEA600A7D13D /* Debug */,
+				7C80776429BBAEA600A7D13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C80776529BBAEA600A7D13D /* Build configuration list for PBXNativeTarget "Laugh GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C80776629BBAEA600A7D13D /* Debug */,
+				7C80776729BBAEA600A7D13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C80773229BBAEA500A7D13D /* Project object */;
+}
