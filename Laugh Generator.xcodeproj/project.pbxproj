@@ -14,6 +14,14 @@
 		7C80775029BBAEA600A7D13D /* Laugh_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80774F29BBAEA600A7D13D /* Laugh_GeneratorTests.swift */; };
 		7C80775A29BBAEA600A7D13D /* Laugh_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80775929BBAEA600A7D13D /* Laugh_GeneratorUITests.swift */; };
 		7C80775C29BBAEA600A7D13D /* Laugh_GeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80775B29BBAEA600A7D13D /* Laugh_GeneratorUITestsLaunchTests.swift */; };
+		7C80776929BBAFA500A7D13D /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80776829BBAFA500A7D13D /* Joke.swift */; };
+		7C80776B29BBBD6200A7D13D /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80776A29BBBD6200A7D13D /* JokeView.swift */; };
+		7C80776D29BBBF7500A7D13D /* JokeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80776C29BBBF7500A7D13D /* JokeRow.swift */; };
+		7C80776F29BBD77700A7D13D /* JokeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80776E29BBD77700A7D13D /* JokeList.swift */; };
+		7C80777329BBD83D00A7D13D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80777229BBD83D00A7D13D /* ModelData.swift */; };
+		7C80777929BF939400A7D13D /* JokeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80777829BF939400A7D13D /* JokeDetail.swift */; };
+		7C80777F29BFCDB100A7D13D /* EnterRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80777E29BFCDB100A7D13D /* EnterRating.swift */; };
+		7C80778129C0CA3900A7D13D /* RatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80778029C0CA3900A7D13D /* RatingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		7C80775529BBAEA600A7D13D /* Laugh GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Laugh GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C80775929BBAEA600A7D13D /* Laugh_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laugh_GeneratorUITests.swift; sourceTree = "<group>"; };
 		7C80775B29BBAEA600A7D13D /* Laugh_GeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laugh_GeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C80776829BBAFA500A7D13D /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		7C80776A29BBBD6200A7D13D /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
+		7C80776C29BBBF7500A7D13D /* JokeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeRow.swift; sourceTree = "<group>"; };
+		7C80776E29BBD77700A7D13D /* JokeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeList.swift; sourceTree = "<group>"; };
+		7C80777229BBD83D00A7D13D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		7C80777829BF939400A7D13D /* JokeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDetail.swift; sourceTree = "<group>"; };
+		7C80777E29BFCDB100A7D13D /* EnterRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterRating.swift; sourceTree = "<group>"; };
+		7C80778029C0CA3900A7D13D /* RatingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				7C80773D29BBAEA500A7D13D /* Laugh_GeneratorApp.swift */,
-				7C80773F29BBAEA500A7D13D /* ContentView.swift */,
+				7C80777029BBD7CE00A7D13D /* Model */,
+				7C80777129BBD7E100A7D13D /* View */,
 				7C80774129BBAEA600A7D13D /* Assets.xcassets */,
 				7C80774329BBAEA600A7D13D /* Laugh_Generator.entitlements */,
 				7C80774429BBAEA600A7D13D /* Preview Content */,
@@ -127,6 +144,37 @@
 				7C80775B29BBAEA600A7D13D /* Laugh_GeneratorUITestsLaunchTests.swift */,
 			);
 			path = "Laugh GeneratorUITests";
+			sourceTree = "<group>";
+		};
+		7C80777029BBD7CE00A7D13D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C80776829BBAFA500A7D13D /* Joke.swift */,
+				7C80777229BBD83D00A7D13D /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C80777129BBD7E100A7D13D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C80773F29BBAEA500A7D13D /* ContentView.swift */,
+				7C80776E29BBD77700A7D13D /* JokeList.swift */,
+				7C80776C29BBBF7500A7D13D /* JokeRow.swift */,
+				7C80776A29BBBD6200A7D13D /* JokeView.swift */,
+				7C80777829BF939400A7D13D /* JokeDetail.swift */,
+				7C80777E29BFCDB100A7D13D /* EnterRating.swift */,
+				7C80778229C0CA4400A7D13D /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C80778229C0CA4400A7D13D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7C80778029C0CA3900A7D13D /* RatingController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +308,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C80774029BBAEA500A7D13D /* ContentView.swift in Sources */,
+				7C80776929BBAFA500A7D13D /* Joke.swift in Sources */,
+				7C80777329BBD83D00A7D13D /* ModelData.swift in Sources */,
+				7C80776D29BBBF7500A7D13D /* JokeRow.swift in Sources */,
+				7C80777F29BFCDB100A7D13D /* EnterRating.swift in Sources */,
+				7C80776B29BBBD6200A7D13D /* JokeView.swift in Sources */,
+				7C80776F29BBD77700A7D13D /* JokeList.swift in Sources */,
 				7C80773E29BBAEA500A7D13D /* Laugh_GeneratorApp.swift in Sources */,
+				7C80778129C0CA3900A7D13D /* RatingController.swift in Sources */,
+				7C80777929BF939400A7D13D /* JokeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
