@@ -6,7 +6,7 @@ function App() {
   const [joke, setJoke] = useState("No Joke Yet")
 
   const get_joke = async () => {
-      fetch('http://0.0.0.0:5000/random_joke', {
+      fetch('http://127.0.0.1:49360/random_joke', {
           method: 'GET'
       })
       .then((response) => response.json())

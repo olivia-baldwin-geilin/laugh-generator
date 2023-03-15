@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-deployment
+  labels: 
+    tier: frontend
+    name: web-deployment
+    app: laugh-generator
+spec: 
+  replicas: 2
+  selector: 
+    matchLabels:
+      tier: frontend
+      name: frontend-pod
+      app: laugh-generator
+  template:
+    metadata:
+      name: web-pod
+      labels: 
+        tier: frontend
+        name: frontend-pod
+        app: laugh-generator
+    spec:
+      containers: 
+        - name: web-ui
+          image: oliviabaldwin321/laugh-generator:web-ui
+          ports: 
+           - containerPort: 3000

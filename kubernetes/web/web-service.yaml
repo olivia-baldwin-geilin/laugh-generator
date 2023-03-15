@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-service
+  labels:
+    tier: frontend
+    name: web-service
+    app: laugh-generator
+spec: 
+  type: NodePort
+  ports:
+    - port: 3000
+      targetPort: 3000
+      nodePort: 30004
+  selector: 
+    tier: frontend
+    name: frontend-pod
+    app: laugh-generator
+

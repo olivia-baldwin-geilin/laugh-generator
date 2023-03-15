@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: server-service
+  labels:
+    tier: backend
+    name: server-service
+    app: laugh-generator
+spec: 
+  type: NodePort
+  ports: 
+    - port: 5000
+      targetPort: 5000
+      nodePort: 30001
+  selector: 
+    tier: backend
+    name: backend-pod
+    app: laugh-generator

@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: server-deployment
+  labels: 
+    tier: backend
+    app: laugh-generator
+spec: 
+  selector:
+    matchLabels:
+      tier: backend
+      name: backend-pod
+      app: laugh-generator
+  replicas: 2
+  template:
+    metadata:
+      name: server-pod
+      labels: 
+        tier: backend
+        name: backend-pod
+        app: laugh-generator
+    spec:
+      containers: 
+        - name: python-docker
+          image: oliviabaldwin321/laugh-generator:python-docker
+          ports: 
+            - containerPort: 5000
