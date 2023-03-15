@@ -12,7 +12,7 @@ function App() {
       .then((response) => response.json())
       .then((data) => {
           console.log('Successs: ', data);
-          setJoke(data.body)
+          setJoke(data[0].body)
       })
       .catch((error) => {
           console.error('Error: ', error);
