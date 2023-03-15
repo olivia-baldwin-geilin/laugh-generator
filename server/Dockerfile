@@ -1,9 +1,9 @@
 FROM python:3.9
-ADD server/server.py .
+ADD server.py .
 
-COPY server/requirements.txt /app/requirements.txt
+COPY requirements.txt /app/requirements.txt
 
-COPY server/server.py /app/server.py
+COPY server.py /app/server.py
 
 WORKDIR /app
 
